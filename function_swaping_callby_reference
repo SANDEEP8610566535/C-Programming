@@ -1,0 +1,23 @@
+#include <stdio.h>
+int swp(int *a,int *b)
+{
+    int c=0;
+    c=*a;
+    *a=*b;
+    *b=c;
+ printf("%d %d",*a,*b);
+
+}
+
+int main()
+{
+    int a,b;
+    scanf("%d %d",&a,&b);
+    swp(&a,&b);
+    
+    
+}
+output :
+10
+30
+30 10
