@@ -1,0 +1,17 @@
+#include <stdio.h>
+int res(char name[20],int age,float height)
+{
+ printf("%s %d %f",name,age,height);
+
+}
+
+int main()
+{
+    char name[20];
+    int age;
+    float height;
+    scanf("%s %d %f",&name,&age,&height);
+     res(name,age,height);
+    
+    
+}
